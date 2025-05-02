@@ -14,8 +14,8 @@
 }
 
 * {
-    margin: 1px;
-    padding: 0px;
+    margin: 2px;
+    padding: 0;
     box-sizing: border-box;
     border-radius: 10px;
 }
@@ -45,7 +45,8 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 1px 1px 2px #000;
   transition: color 0.3s ease;
 }
-    
+
+
 a {
     color: var(--primary-color);
     text-decoration: none;
@@ -149,19 +150,18 @@ nav ul li a.active::after {
 
 /* ---------- HERO SECTION ---------- */
 .hero {
-    background: linear-gradient(135deg, #3498db, #2c3e50);
+    background: white;
     padding: 150px 0 100px;
-    color: white;
+    color: var(--text-color);
 }
 
 .profile-card {
     display: flex;
     align-items: center;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    background: white;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     padding: 30px;
 }
 
@@ -183,14 +183,14 @@ nav ul li a.active::after {
 
 .profile-info h1 {
     font-size: 2.8rem;
-    color: white;
+    color: var(--secondary-color);
     margin-bottom: 5px;
 }
 
 .profile-info h3 {
     font-size: 1.4rem;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--text-color);
     margin-bottom: 20px;
 }
 
