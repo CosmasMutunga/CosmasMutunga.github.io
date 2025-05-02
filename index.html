@@ -1,28 +1,152 @@
-<!docktype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title> MY PORTFOLIO</title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmas Mutunga - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-<div class="sidebar">
-    <h2>My Portfolio</h2>
-    <a href="About.html">About</a>
-    <a href="Projects.html">Projects</a>
-    <a href="Skills">Skills</a>
-    <a href="Contact.html">Contact</a>
-    <a href="Education.html">Education backround</a>
-    <a href="Certificates.html">Certificates</a>
-  </div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h2>My Portfolio</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#personal" class="active">Home</a></li>
+                   
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                   
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                   <li><a href="#contact">Contact</a></li>
 
-  <div class="content">
-    <h1>Welcome to My<span class="highlight"> Portfolio</span></h1>
-<img src="images 1.jpg" alt="Preparing a Master Plan " width="400">
-<img src="image 2.jpeg" alt="Spatial Planning" width="500" height="230">
-<div> <b>PREPARING A MASTER PLAN &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp SPATIAL PLANNING </b></div><br></br>
-<div> <img src="image 3.jpg" alt="Sustanable Development Goals " width="400"> </dvi>
-<div> <b> SDG<span class="highlight"> (SUSTAINABLE DEVELOPMENT GOALS)</span></b> </div>
-  </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <section class="hero" id="personal">
+        <div class="container">
+            <div class="profile-card">
+                <div class="profile-image">
+                    <img src="profile.jpg" alt="Cosmas Kithuka Mutunga">
+                </div>
+                <div class="profile-info">
+                    <h1>Cosmas Kithuka Mutunga</h1>
+                    <h3>Urban & Regional Planner</h3>
+                    <div class="contact-details">
+                        <p><i class="fas fa-phone"></i> +254 704 663 500</p>
+                        <p><i class="fas fa-birthday-cake"></i> July 14, 2000</p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:cosmasmutunga990@gmail.com">cosmasmutunga990@gmail.com</a></p>
+                    </div>
+                    <div class="resume-btn">
+                        <a href="documents/RESUME.pdf" target="_blank" download><i class="fas fa-download"></i> Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title">Education Background</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>2021 - 2025</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Arts - Urban and Regional Planning with IT</h3>
+                        <p>Maseno University</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>2016 - 2021</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>High School</h3>
+                        <p>KCSE: B-</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>2006 - 2015</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Primary Education</h3>
+                        <p>Attained <strong>303 Marks</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certificates" id="certificates">
+        <div class="container">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificate-list">
+                <div class="certificate-item">
+                    <i class="fas fa-certificate"></i>
+                    <a href="CSA EXECUTIVE.pdf" target="_blank" download>Catholic Students Association (CSA) Executive Leadership</a>
+                </div>
+                <div class="certificate-item">
+                    <i class="fas fa-certificate"></i>
+                    <a href="CSA COUNCIL.pdf" target="_blank" download>Catholic Students Association (CSA) Council Leadership</a>
+                </div>
+                <div class="certificate-item">
+                    <i class="fas fa-certificate"></i>
+                    <a href="LEGIO.pdf" target="_blank" download>Legion Of Mary (Mary Refuge Of Sinners Praesidium)</a>
+                </div>
+                <div class="certificate-item">
+                    <i class="fas fa-certificate"></i>
+                    <a href="DIVINE MERCY.pdf" target="_blank" download>Divine Mercy</a>
+                </div>
+                <div class="certificate-item">
+                    <i class="fas fa-certificate"></i>
+                    <a href="NMCS.pdf" target="_blank" download>2 NMCS Western Region Convention</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> cosmasmutunga990@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +254 704 663 500</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 12, Masinga, Machakos</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#personal">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Cosmas Mutunga | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
